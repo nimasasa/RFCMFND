@@ -1,0 +1,18 @@
+{
+    "contents" : "library(xlsx)\nprobSc <- data.frame(prob = read.xlsx(\"C:/Users/Nima/workspace/Ford Model/ScProb.xls\", 1, header=FALSE))\n\nhist(probSc$X1)\nmax(probSc$X1)\nmin(probSc$X1)\nwhich.max(probSc$X1)\nhist(probSc$X1[1:320])\n1/min(probSc$X1)\nmax(probSc$X1)/min(probSc$X1)\nsum(probSc$X1)\nsortedProb = data.frame(prob= sort(probSc$X1,decreasing = FALSE))\nhist(sortedProb$prob[1:5500])\nmySamp= NULL\nfor(i in 1:100)\n{\n  mySamp=cbind(mySamp,sample(probSc$X1,500))\n}\n\n",
+    "created" : 1455809067032.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "101828471",
+    "id" : "226D672C",
+    "lastKnownWriteTime" : 7011605692497750387,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "type" : "r_source"
+}

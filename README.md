@@ -11,7 +11,7 @@ A Random Forest Classifier for Multi-type Functional (RFCMFND)!
 
 **Date**: 2015-12-18
 
-**Author(s)**: Nima Salehi Sadghiani, Amirhossein Meisami
+**Author(s)**: Nima Salehi Sadghiani, Amirhossein Meisami, Jian Kang
 
 **Description**: In this package, we propose a modified **Random Forest (RF)** classifier for multi-type functional neuroimaging data (**foci**) and a **K-Centroids Cluster Analysis (KCCA)** algorithm to pre-process the foci.
 
